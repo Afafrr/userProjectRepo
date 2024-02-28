@@ -1,0 +1,4 @@
+Wspólny request dla login i register
+
+Error handling w login i register
+

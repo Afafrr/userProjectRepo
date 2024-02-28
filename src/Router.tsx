@@ -1,6 +1,8 @@
 import { Register } from "./auth/register/Register";
 import { Login } from "./auth/login/Login";
 import { Users } from "./users/Users";
+import { MuiNavbar } from "./components/MuiNavbar";
+import { AuthProvider } from "./auth/authProvider/AuthProvider";
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -26,8 +28,13 @@ export const Router = () => {
 
 export const Root = () => {
   return (
-    <div>
-      <Outlet />
+    <div
+      style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}
+    >
+      <AuthProvider>
+        <MuiNavbar />
+        <Outlet />
+      </AuthProvider>
     </div>
   );
 };

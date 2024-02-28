@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  padding: 0px !important;
+  margin: 0px !important;
+  min-height: 100vh;
+  max-width: 100vw;
+}
+
+.avatar-img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 50%;
+  padding: 0;
+}
