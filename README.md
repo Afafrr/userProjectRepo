@@ -7,7 +7,7 @@
 * [Setup](#setup)
 
 ## General info
-Project uses https://reqres.in/api/ API. It displays users, lets you log in and register. 
+Project uses [REQRES API](https://reqres.in/api/ "reqres api"). It displays users, lets you log in and register. 
 I wanted to build project using Material UI and pracite testing. 
 	
 ## Technologies
