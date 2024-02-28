@@ -1,4 +1,6 @@
-# React + TypeScript + Vite
+#H1 Users App
+
+Project I wanted to practice using Material UI
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
