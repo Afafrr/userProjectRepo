@@ -1,32 +1,34 @@
-# H1 Users App
+# Users App
 
-Project I wanted to practice using Material UI
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Screenshots](#screenshots)
+* [Setup](#setup)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## General info
+Project uses https://reqres.in/api/ API. It displays users, lets you log in and register. 
+I wanted to build project using Material UI and pracite testing. 
+	
+## Technologies
+Project is created with:
+* React 18.2
+* React-dom 18.2
+* React-router-dom 6.22.0
+* Material UI 5.15.9
+* axios 1.6.7
 
-Currently, two official plugins are available:
+## Screenshots
+<img width="493" alt="image" src="https://github.com/Afafrr/userProjectRepo/assets/118637963/cd85f8ff-ee21-44b2-934a-d90b916cc670">
+<img width="497" alt="image" src="https://github.com/Afafrr/userProjectRepo/assets/118637963/f258413d-056e-4331-9b3a-534fff6f54ba">
+<img width="496" alt="image" src="https://github.com/Afafrr/userProjectRepo/assets/118637963/df9433ab-819d-4fa2-a8be-e0d1c0303d04">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+	
+## Setup
+To run this project, install it locally using npm:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+$ cd ../lorem
+$ npm install
+$ npm start
+```
