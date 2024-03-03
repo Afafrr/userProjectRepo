@@ -5,7 +5,7 @@
 * [Technologies](#technologies)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
-
+ 
 ## General info
 Project uses [REQRES API](https://reqres.in/ "reqres api"). It displays users, lets you log in and register. 
 I wanted to build project using Material UI and pracite testing. 
